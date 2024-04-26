@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'CampanaScript.otf';
+    src: url(fontes/CampanaScript.otf) format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    font-family: 'CampanaScript.otf', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+}
+nav{
+    text-align: center;
+    font-family: "Overlock", sans-serif;
+    font-size: 3.1em;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+main{
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+main p{
+    margin-bottom: 25px;
+}
